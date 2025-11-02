@@ -8,7 +8,7 @@ describe('이진트리 테스트', () => {
     expect(binaryTree.inOrderTraversal()).toEqual([]);
     expect(binaryTree.preOrderTraversal()).toEqual([]);
     expect(binaryTree.postOrderTraversal()).toEqual([]);
-   // expect(binaryTree.levelOrderTraversal()).toEqual([]);
+    expect(binaryTree.levelOrderTraversal()).toEqual([]);
 
   });
 
@@ -20,7 +20,7 @@ describe('이진트리 테스트', () => {
     expect(binaryTree.inOrderTraversal()).toEqual([1, 2, 3]);
     expect(binaryTree.preOrderTraversal()).toEqual([2, 1, 3]);
     expect(binaryTree.postOrderTraversal()).toEqual([1, 3, 2]);
-    //expect(binaryTree.levelOrderTraversal()).toEqual([2, 1, 3]);
+    expect(binaryTree.levelOrderTraversal()).toEqual([2, 1, 3]);
   });
 
 
